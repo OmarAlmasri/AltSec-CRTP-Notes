@@ -1,0 +1,35 @@
+# ============================================================
+#  CRTP Notes — .gitignore
+# ============================================================
+
+# Exam folder — never commit exam material
+Exam/
+Exam/**
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE folders
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary / draft files
+*.tmp
+*.bak
+*.draft
+
+# Compressed archives
+*.zip
+*.tar.gz
+*.7z
+
+# Python virtual envs (if any automation scripts exist)
+__pycache__/
+*.pyc
+.env
+venv/
